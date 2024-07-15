@@ -18,7 +18,6 @@ class App extends BaseConfig
      */
     # public string $baseURL = 'http://localhost:8080/';
     public string $baseURL = 'http://localhost/gis-ci4/public/';
-    # public $baseURL = 'http://10.1.46.125/gis-ci4/public/';
 
     /**
      * Allowed Hostnames http://10.1.46.125/gis-ci4/public/he hostname in the baseURL.

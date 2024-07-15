@@ -29,7 +29,6 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        #'hostname'     => 'http://10.1.46.125/gis-ci4/public/',
         'username'     => 'root',
         'password'     => '',
         'database'     => 'db-webgis-dasar-leaflet-ci-4',
