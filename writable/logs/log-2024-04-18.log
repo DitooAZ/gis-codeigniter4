@@ -1,0 +1,1567 @@
+CRITICAL - 2024-04-18 01:16:55 --> ErrorException: Undefined variable: pelanggaran
+in APPPATH\Views\v_dashboard.php on line 15.
+ 1 APPPATH\Views\v_dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pelanggaran', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(14): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 01:34:55 --> ErrorException: Undefined variable: jumlahPelanggaran
+in APPPATH\Views\v_dashboard.php on line 28.
+ 1 APPPATH\Views\v_dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jumlahPelanggaran', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(14): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 01:35:28 --> ErrorException: Undefined variable: jumlahPelanggaran
+in APPPATH\Views\v_dashboard.php on line 28.
+ 1 APPPATH\Views\v_dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jumlahPelanggaran', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(14): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 01:43:21 --> ErrorException: Use of undefined constant Lokasi - assumed 'Lokasi' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 73.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant Lokasi - assumed \'Lokasi\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 01:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 01:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:02:23 --> Error: Call to undefined function value()
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 25.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 4 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('9')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:04:23 --> ErrorException: Undefined variable: tanggal
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 28.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tanggal', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('9')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:08:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:09:16 --> ErrorException: Undefined index: tgl_lokasi
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 28.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl_lokasi', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('9')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:09:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:10:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:10:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:11:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:11:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:11:59 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:14:02 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:14:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:15:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:16:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:17:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:17:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:17:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:17:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:18:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:18:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:18:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:18:54 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:19:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:19:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:20:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:21:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:22:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:22:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:23:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:27:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:31:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:31:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:35:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:37:05 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:37:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:39:11 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:40:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:44:13 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:46:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 02:46:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:06:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:07:46 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:08:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:09:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:09:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:11:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:13:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 03:34:38 --> ParseError: syntax error, unexpected '}'
+in APPPATH\Controllers\Lokasi.php on line 407.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('Lokasi/index', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('Lokasi/index')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('Lokasi/index')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 03:35:57 --> ParseError: syntax error, unexpected '}'
+in APPPATH\Controllers\Lokasi.php on line 407.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('Lokasi/index', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('Lokasi/index')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('Lokasi/index')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:37:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 03:37:11 --> ErrorException: Undefined index: id_lokasi
+in APPPATH\Models\ModelLokasi.php on line 34.
+ 1 APPPATH\Models\ModelLokasi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_lokasi', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Models\\ModelLokasi.php', 34, [...])
+ 2 APPPATH\Controllers\Lokasi.php(438): App\Models\ModelLokasi->updateData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->updateData('11')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:38:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:38:54 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:39:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:39:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:45:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(246): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:45:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(246): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:45:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(246): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:46:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(246): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:48:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 03:55:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(242): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 03:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 03:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 04:07:15 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 82.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 3 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 04:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 04:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 04:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 04:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 04:38:19 --> ErrorException: require(fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 17.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 17, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(17): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:40:36 --> ErrorException: require(fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 17.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 17, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(17): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 04:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 04:50:45 --> ErrorException: require(fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 2.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 2, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(2): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:51:18 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 2.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 2, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(2): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:52:08 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 2.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 2, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(2): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:53:43 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:55:06 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 04:55:07 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:09:36 --> ErrorException: require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(ThirdParty/fpdf/fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:09:56 --> ErrorException: require(vendor\setasign\fpdf\fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor\\setasign\\fpdf\\fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:10:54 --> ErrorException: require(vendor\setasign\fpdf\fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor\\setasign\\fpdf\\fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:13:15 --> ErrorException: require(vendor\setasign\fpdf\fpdf.php): failed to open stream: No such file or directory
+in APPPATH\Views\Lokasi\v_data_lokasi.php on line 3.
+ 1 APPPATH\Views\Lokasi\v_data_lokasi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor\\setasign\\fpdf\\fpdf.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php', 3, [...])
+ 2 APPPATH\Views\Lokasi\v_data_lokasi.php(3): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_data_lokasi.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_data_lokasi', [], true)
+ 6 APPPATH\Views\v_template.php(117): view('Lokasi/v_data_lokasi')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+10 APPPATH\Controllers\Lokasi.php(20): view('v_template', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 05:15:42 --> ErrorException: App\Controllers\Lokasi::generatePDF(): Failed opening required 'C:\xampp\htdocs\gis-ci4\app\vendor/setasign/fpdf/fpdf.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\Lokasi.php on line 462.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-18 05:17:20 --> ErrorException: App\Controllers\Lokasi::generatePDF(): Failed opening required 'C:\xampp\htdocs\gis-ci4\app\app\ThirdParty\fpdf\fpdf.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\Lokasi.php on line 462.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-18 05:18:32 --> Error: Class 'App\Controllers\FPDF' not found
+in APPPATH\Controllers\Lokasi.php on line 466.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->generatePDF()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:22:27 --> Error: Class 'App\Controllers\FPDF' not found
+in APPPATH\Controllers\Lokasi.php on line 466.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->generatePDF()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:24:02 --> Error: Class 'FPDF\FPDF' not found
+in APPPATH\Controllers\Lokasi.php on line 466.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->generatePDF()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 05:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 05:37:25 --> Exception: FPDF error: Unknown page size: a1
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 267.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(1068): FPDF->Error('Unknown page size: a1')
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(1098): FPDF->_getpagesize('a1')
+ 3 APPPATH\ThirdParty\fpdf\fpdf.php(310): FPDF->_beginpage('L', 'A1', 0)
+ 4 APPPATH\Controllers\Lokasi.php(469): FPDF->AddPage('L', 'A1')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->generatePDF()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 05:37:33 --> Exception: FPDF error: Unknown page size: a2
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 267.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(1068): FPDF->Error('Unknown page size: a2')
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(1098): FPDF->_getpagesize('a2')
+ 3 APPPATH\ThirdParty\fpdf\fpdf.php(310): FPDF->_beginpage('L', 'A2', 0)
+ 4 APPPATH\Controllers\Lokasi.php(469): FPDF->AddPage('L', 'A2')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->generatePDF()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 05:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 05:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:04:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(242): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:04:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(242): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:06:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(242): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:06:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(242): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:23:06 --> Error: Cannot call constructor
+in APPPATH\Controllers\Lokasi.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Lokasi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:33:35 --> Error: Class 'App\Controllers\Spreadsheet' not found
+in APPPATH\Controllers\Lokasi.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->exportToExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:34:13 --> Error: Class 'App\Controllers\Spreadsheet' not found
+in APPPATH\Controllers\Lokasi.php on line 539.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->exportToExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 06:55:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 06:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 06:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 07:19:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Lokasi\v_edit_lokasi.php on line 24.
+ 1 APPPATH\Views\Lokasi\v_edit_lokasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\Lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(117): view('Lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(245): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Lokasi->editLokasi('css', 'styles.css')
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 07:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 07:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 08:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
